@@ -1,7 +1,7 @@
 {
   "name": "ember-cordova-preso",
-  "version": "0.0.0",
-  "description": "Small description for ember-cordova-preso goes here",
+  "version": "1.0.0",
+  "description": "This project is for the EmberATX presentation on Ember Cordova as a follow along example.",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Jd Fiscus",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
