@@ -1,0 +1,22 @@
+<main class="container">
+  <section class="row">
+    <section>
+      <div class="service-block">
+        <div class="service-icon pulse infinite animated">
+            <i class="fa fa-mobile"></i>
+        </div>
+        <h3>hello {{group}}</h3>
+          <p>In this example we are using:</p>
+          <ul>
+            {{#each languages as |language|}}
+              <li>{{language}}</li>
+            {{/each}}
+         </ul>
+       </div>
+    </section>
+  </section>
+</main>
+<footer>
+  <img class="logo" src="assets/images/logo.png" alt="iamFiscus" />
+</footer>
+{{outlet}}
