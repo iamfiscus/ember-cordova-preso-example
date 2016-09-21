@@ -18,7 +18,7 @@ export default Route.extend({
   platformService: inject.service('device/platform'),
 
   // Splash Service
-  splashScreenService: Ember.inject.service('device/splashscreen'),
+  splashScreenService: inject.service('device/splashscreen'),
 
   beforeModel() {
     this.get('splashScreenService').show();
