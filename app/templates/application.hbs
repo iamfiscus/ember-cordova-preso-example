@@ -5,11 +5,12 @@
         <div class="service-icon pulse infinite animated">
             <i class="fa fa-mobile"></i>
         </div>
-        <h3>hello {{group}}</h3>
-          <p>In this example we are using:</p>
+        <h3>hello {{model.group}}</h3>
+          {{component 'keyboard-example' target=model.group}}
+          <p>Our platform is:</p>
           <ul>
-            {{#each languages as |language|}}
-              <li>{{language}}</li>
+            {{#each model.platforms as |platform|}}
+              <li>{{platform}}</li>
             {{/each}}
          </ul>
        </div>
