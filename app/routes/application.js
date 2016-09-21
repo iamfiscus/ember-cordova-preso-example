@@ -26,7 +26,7 @@ export default Route.extend({
 
   afterModel() {
     this.get('splashScreenService').hide();
-  }
+  },
 
   // Model
   model: function(){
