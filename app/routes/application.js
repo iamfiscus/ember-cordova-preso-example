@@ -13,9 +13,11 @@ export default Route.extend({
   logReady: subscribe('cordova.deviceready', function() {
     alert('event: deviceready');
   }),
+
   // Platform Service
   platformService: inject.service('device/platform'),
 
+  // Model
   model: function(){
     return {
       group: 'World',

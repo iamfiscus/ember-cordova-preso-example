@@ -6,6 +6,7 @@
             <i class="fa fa-mobile"></i>
         </div>
         <h3>hello {{model.group}}</h3>
+          {{component 'keyboard-example' target=model.group}}
           <p>Our platform is:</p>
           <ul>
             {{#each model.platforms as |platform|}}
