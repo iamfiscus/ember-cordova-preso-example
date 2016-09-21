@@ -14,6 +14,9 @@ export default Route.extend({
     alert('event: deviceready');
   }),
 
+  // Platform Service
+  platformService: inject.service('device/platform'),
+
   // Splash Service
   splashScreenService: Ember.inject.service('device/splashscreen'),
 
@@ -23,5 +26,13 @@ export default Route.extend({
 
   afterModel() {
     this.get('splashScreenService').hide();
+  }
+
+  // Model
+  model: function(){
+    return {
+      group: 'World',
+      platforms: this.get('platformService').platforms
+    };
   }
 });
