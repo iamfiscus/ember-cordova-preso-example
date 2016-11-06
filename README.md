@@ -3,6 +3,8 @@
 This project is for the EmberATX presentation on [Ember Cordova](http://embercordova.com/) as a follow along example.
 [Slide Deck](https://slides.com/iamfiscus/ember-cordova)
 
+[![What about mobile? EmberATX](http://i3.ytimg.com/vi/m_lASywwK6w/hqdefault.jpg)](https://www.youtube.com/watch?v=m_lASywwK6w)
+
 ## Prerequisites
 
 You will need the following things properly installed on your computer.
